@@ -1,4 +1,4 @@
-<!-- JTCPS2 - FPGA compatible core of CAPCOM CPS2 hardware by Jotego
+<!--          FPGA compatible core for Capcom arcade hardware by Jotego
 
               This core is available for hardware compatible with MiST and MiSTer
               Other FPGA systems may be supported by the time you read this.
@@ -12,7 +12,7 @@
               The author does not endorse or participate in illegal distribution
               of copyrighted material. This work can be used with legally
               obtained ROM dumps or with compatible homebrew software.
-			  
+
               This file license is GNU GPLv2.
               You can read the whole license file in
               https://opensource.org/licenses/gpl-2.0.php
@@ -21,19 +21,20 @@
 
 <misterromdescription>
     <about author="jotego" webpage="https://patreon.com/topapate" source="https://github.com/jotego" twitter="@topapate"/>
-    <name>Street Fighter Alpha 3: Challenger's Edition (USA 980904)</name>
+    <name>Street Fighter Alpha 3 Challenger&apos;s Edition (USA 980904)</name>
     <setname>sfa3ce</setname>
     <rbf>jtcps2</rbf>
+    <mameversion>0229</mameversion>
     <year>1998</year>
     <manufacturer>Capcom</manufacturer>
     <players>2</players>
     <joystick>8-way</joystick>
     <rotation>horizontal</rotation>
     <region>USA</region>
-    <mraauthor>jotego,atrac17,grego2d</mraauthor>
-    <mameversion>0229</mameversion>
-    <mratimestamp>20210408</mratimestamp>
     <platform>CPS-2</platform>
+    <category>Fighting</category>
+    <catver>Fighter / Versus</catver>
+    <mraauthor>jotego,atrac17,grego2d</mraauthor>
     <rom index="0" zip="sfa3.zip|sfa3u.zip|qsound.zip" type="merged" md5="None" address="0x30000000">
         <part>
         00 10 00 11 00 31 00 b1 
@@ -41,7 +42,7 @@
         32 ff 00 02 04 06 26 28 
         2a 2c 2e 00 00 30 02 04 
         08 30 ff ff ff ff ff ff 
-        fc ff ff ff 
+        fc ff ff ff
         </part>
         <!-- key - starts at 0x0 -->
         <part name="sfa3u.key" crc="4a8f98c1"/>
@@ -216,6 +217,9 @@
     </rom>
     <rom index="1">
         <part>00</part>
+    </rom>
+    <rom index="2">
+        <part>01 09 01 00 00 01 00 01 00 02 00 00 00 00 00 00 01 04 02 01 01 01 01 00 00 00 00 00 00 00 00 00 09 98 02 04 5a 53 55 33 4c 41 48 50 20 41 20 33 01 09 01 00 00 01 00 01 00 02 00 00 00 00 00 00 01 04 02 01 01 01 01 00 00 00 00 00 00 00 00 00 09 98 02 04 5a 53 55 33 4c 41 48 50 20 41 20 33 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</part>
     </rom>
     <nvram index="2" size="128"/>
     <buttons names="Light Punch,Middle Punch,Heavy Punch,Light Kick,Middle Kick,Heavy Kick,Start,Coin,Core credits" default="Y,X,B,A,L,R,Select,Start,-" count="6"/>
