@@ -21,7 +21,7 @@ Created by Grego and Gnawtor
 
 1 - Obtain the original MAME ROM set for the USA version of Street Fighter Alpha 3 (980904) (sfa3u.zip) and extract it to an empty folder.
 
-2 - Download the decrypted version of your ROM from https://cps2.avalaunch.net/ you will need sfa3udi.zip and copy them over your extracted ROM files. 
+2 - Download the decrypted version of SFA3 (980904) from https://cps2.avalaunch.net/  (sfa3udi.zip) and copy the ROMs contained over the original ROM files. 
 
 3 - Delete the files "sz3ud.03c" and "sz3ud.04c" and then rename "sz3udi.03c" to "sz3ud.03c" and rename "sz3udi.04c" to "sz3ud.04c"
 
