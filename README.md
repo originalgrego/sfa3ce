@@ -13,7 +13,7 @@ Created by Grego and Gnawtor
  * Six New Palettes For Chun Li Taken From The Console Releases
  * Sodom Palette Fixes For Xism
  
-## How to patch your Street Fighter Alpha/Zero 3 ROM
+## How to patch your Street Fighter Alpha 3 ROM
 
 #################
  MAME UNENCRYPTED ROM
@@ -27,7 +27,7 @@ Created by Grego and Gnawtor
 
 4 - Apply the SFA3CE IPS patches from the "graphics" and "unencrypted" folders to the ROMs that match their file names. For Alpha 3 branding, use the IPS files in the "sfa3ce" folder. For Zero 3 branding, use the IPS files in the "sfz3ce" folder.
 
-5 - Zip the contents of your patched from folder and rename it to "sfa3ud.zip"
+5 - Zip the contents of your patched folder and rename it to "sfa3ud.zip"
 
 6 - Put it in your MAME ROM directory. You might want to keep a separate installation of MAME for hacks so that they won't contaminate a clean ROM set.
 
@@ -56,7 +56,7 @@ Created by Grego and Gnawtor
  DARKSOFT ROMS
 ###############
 
-1 - Apply the encrypted or unecrypted darksoft ips file to the appropriate USA version of Street Fighter Alpha 3 (980904) sz3.02 file.
+1 - Apply the darksoft ips file to the unencrypted USA version of Street Fighter Alpha 3 (980904) aka sfa3udi's sz3.02 file.
 
 2 - Apply the gfx ips files to each of the similarly named gfx files.
 
