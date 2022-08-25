@@ -56,10 +56,10 @@ Created by Grego and Gnawtor
  DARKSOFT ROMS
 ###############
 
-1 - Apply the darksoft ips file to the unencrypted USA version of Street Fighter Alpha 3 (980904) aka sfa3udi's sz3.02 file.
+1 - Apply the darksoft ips file to the encrypted USA version of Street Fighter Alpha 3's (980904) sz3.02 file.
 
 2 - Apply the gfx ips files to each of the similarly named gfx files.
 
-3 - Copy the key and name files to the folder for the darksoft roms.
+3 - Copy the name file to the folder for the darksoft roms.
 
 4 - Copy the directory and all other games to a freshly formatted SD card's /games directory.
